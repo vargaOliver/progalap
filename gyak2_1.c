@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define PI 3.14 //konstans globális változó, függvényen kívül
+
 int main() {
+    const double pi = 3.14; //konstans értéket nem lehet futás közben átírni
+    
     double a = 10.0;
     int b = 3;
     double result;
